@@ -5,7 +5,7 @@ Think critically about which files you check into version control, and which fil
 ## Include small and hand-written files
 
 Anything hand-written that would take time to recreate is a good candidate for checking into version control. 
-Example check-in files:
+Example checked-in files:
 
 ```
 src/
@@ -13,13 +13,35 @@ src/
     java/
       us/
         yellosoft/
-          HelloHadoop.java
+          WordCount.java
     resources/
       the-complete-works-of-sir-arthor-conan-doyle.txt
   test/
     java/
     resources/
       the-hound-of-the-baskervilles.txt
+```
+
+Example `.gitignore`:
+
+```
+target/
+output/
+```
+
+Example excluded files:
+
+```
+target/
+  classes/
+    us/
+      yellosoft/
+        WordCount$Map.class
+        WordCount$Reduce.class
+        WordCount.class
+output/
+  _SUCCESS
+  part-00000
 ```
 
 Some binaries should be excluded, but reasonable exceptions include media files such as images, audio, and video; test data; and machine learning data; that may be important resources for your project.
