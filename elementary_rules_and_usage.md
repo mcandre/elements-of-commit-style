@@ -4,13 +4,13 @@
 
 A little context goes a long way. The more people read your code, the more they want to know why you make each change. If you don't say why you committed a change, people might mistakenly revert it!
 
-Bad:
+Good:
 
-> use ByteString
+> replace String with ByteString
 
 Better:
 
-> use ByteString for optimization
+> replace String with ByteString for optimization
 
 When you commit, you can choose to illuminate your open source project, or you can leave everyone in the dark, concealing your true intentions. If you follow the Jedi order, Clarity is a powerful Force spell. The Sith order's counterspell is Obfuscation. If you've been pushing secretive Sith commit messages, you may want to revisit the light side.
 
@@ -18,15 +18,11 @@ When you commit, you can choose to illuminate your open source project, or you c
 
 "Google it" is helpful advice for general tech problems. For more specific conversations, providing links to relevant tools and tickets helps everyone out.
 
-Bad:
-
-> tune up code
-
-Better:
+Good:
 
 > tune up code with jshint
 
-Better still:
+Better:
 
 > per issue #4, tune up code with jshint. http://jshint.com/
 >
@@ -38,9 +34,9 @@ The more you link, the less people have to page you for answers. And, ironically
 
 A commit is like a book, timeless. As long as The Hobbit is in a library, the ring is always being picked up by Bilbo. As long as a commit is in a log, the semicolon is always being appended to the Java statement. Commits should be written in present tense, or command form in English.
 
-Bad:
+Good:
 
-> fixed syntax, added semicolons to statements
+> fixing syntax, adding semicolons to statements
 
 Better:
 
