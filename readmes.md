@@ -6,7 +6,7 @@ At the top level of each project, include a README file describing the project i
 
 Give a brief summary of the project's purpose. Too often, developers neglect to include a project description in the README, infecting users with fear, uncertainty, and doubt. The treatment is a few, plain English sentences.
 
-Example README:
+Example:
 
 ```
 # vcdetect - detect which version control software manages a file path
@@ -20,7 +20,7 @@ Assumes version control data is stored on the file system in plain, unambiguous,
 
 Show new users how to use your project. Command line programs should include a few example runs. Graphical programs should include a few screenshots.
 
-Example README:
+Example:
 
 ```
 # EXAMPLES
@@ -45,7 +45,7 @@ Example README:
 
 If your project depends on any other software packages or configuration, link to or include instructions for setting these up.
 
-Example README:
+Example:
 
 ```
 # REQUIREMENTS
@@ -64,7 +64,7 @@ Example:
 
 Programming newbies may not know how to build, install, and run the project from source. Include basic instructions for a local build.
 
-Example README:
+Example:
 
 ```
 # BUILD
@@ -79,3 +79,15 @@ Example README:
 ```
 
 Keeping build documentation up to date also helps when configurint continuous integration; you will likely copy and paste the same steps into Jenkins or Travis CI.
+
+## Use Markdown format.
+
+You are free to write READMEs and other documentation in any format, but Markdown represents a local maximum of several factors:
+
+* Markdown can make clickable hyperlinks and show images, whereas `txt` files can only show plain text.
+* Markdown is supported by many code hosts, including GitHub, GitLab, and BitBucket.
+* Markdown is easier to learn than HTML.
+
+http://daringfireball.net/projects/markdown/syntax
+
+Modern code hosts automatically look for `README.md` files and render these as clickable HTML pages. Alternative formats such as Textile and reStructuredText are often supported, but Markdown is the premiere format that most open source projects tend to use.
