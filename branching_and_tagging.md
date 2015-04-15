@@ -20,7 +20,9 @@ When the feature/issue/ticket is resolved, merge the code into a more official b
 
 ## Tag releases.
 
-When a milestone has been reached, like a set of features and bugfixes implemented, create a version control tag. For example, engineers may want to compare code between versions to diagnose a bug. Tagging helps people later check out the code at a specific point in time, in terms of a given version number, to help answer these sorts of questions about a codebase.
+When a milestone has been reached, like a set of features and bugfixes implemented, create a version control tag. For example, engineers may want to compare code between versions to diagnose a bug. Or, libraries that depend on one another can use a tagged, non-SNAPSHOT version to avoid API fluctuation.
+
+Tagging records the code at a specific point in time, in terms of a given version number and commit ID, in a way that helps answer these sorts of questions about a codebase.
 
 Example:
 
