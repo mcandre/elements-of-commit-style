@@ -1,6 +1,10 @@
-# Branching
+# Branching and Tagging
 
-The larger the project, the more things tend to spiral into chaos. Branches reign the chaos back in, keeping development in established lanes for branching and merging code changes.
+The larger the project, the more things tend to spiral into chaos. Branches and tags reign the chaos back in, keeping development in established lanes for branching and merging code changes.
+
+## Establish a branch workflow.
+
+There are myriad ways of branching and merging. Document how contributors should interact with branches, or adopt [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/), the de facto standard for working with branches on git projects.
 
 ## Use feature branches.
 
@@ -14,6 +18,15 @@ Name feature branches after the feature, issue, or ticket number. For example:
 
 When the feature/issue/ticket is resolved, merge the code into a more official branch such as `dev` for development, or `master` if you're using an *unstable master* branch workflow.
 
-## Establish a branch workflow.
+## Tag releases.
 
-There are myriad ways of branching and merging. Document how contributors should interact with branches, or adopt [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/), the de facto standard for working with branches on git projects.
+When a milestone has been reached, like a set of features and bugfixes implemented, create a version control tag. For example, engineers may want to compare code between versions to diagnose a bug. Tagging helps people later check out the code at a specific point in time, in terms of a given version number, to help answer these sorts of questions about a codebase.
+
+Example:
+
+```
+$ echo '{ "version": "1.0" }' > version.json
+$ git commit -am 'bump to v1.0'
+$ git tag -a 'v1.0' -m 'v1.0'
+$ git push --tags
+```
