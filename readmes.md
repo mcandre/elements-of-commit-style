@@ -2,7 +2,7 @@
 
 At the top level of each project, include a README file describing the project in terms a new user or contributor can understand.
 
-## Include the purpose of the project
+## Describe the purpose of the project.
 
 Give a brief summary of the project's purpose.
 
@@ -18,7 +18,7 @@ Assumes version control data is stored on the file system in plain, unambiguous,
 
 Many repositories, especially corporate subsystems, neglect to include a project description, at the expense of contributions from new and unfamiliar developers.
 
-## Include example usage
+## Show example usages.
 
 Show new users how to use your project. Command line programs should include a few example runs. Graphical programs should include a few screenshots.
 
