@@ -71,3 +71,7 @@ Better:
 > set session.cookie_lifetime = 0
 
 Leading with the most salient information is particularly useful for limited commit views, such as the default view for command line `git log`, as well as Web browser commit views. If you hide the important parts of your commit message beneath a bunch of other lines, the important parts may fall "beneath the fold".
+
+## Amending and Rebasing
+
+`git commit --amend` and `git rebase -i` provide tools for editing commit history. See [Pro Git](http://git-scm.com/book/en/v2) for more details.
