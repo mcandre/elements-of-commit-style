@@ -4,4 +4,4 @@ Version control can be a bear. It's big, loud, and often presents itself between
 
 You can't outrun a bear, but you can stand up to it. You can keep your intentions clear in commit messages, steer everyone away from confusion. You can drop signposts to warn other hikers along the commit path. Version control systems give you the tools to reach your goals, you just need to learn to use them.
 
-Enough metaphors, let's learn some commit style!
+Let's learn some commit style (and mix more metaphors)!
