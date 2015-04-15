@@ -12,4 +12,4 @@ Better:
 
 > fix syntax by adding semicolons to statements
 
-In a small project, past vs. present tense may seem a subjective, purely stylistic preference. However, as a project grows, commits may need to be picked and pruned on branches. When someone reverts a commit, or merges a branch, or cherry picks specific commits, reading commits as actions that can be performed, or not performed, or undone, adds clarity to the version control workflow.
+In a small project where each commit is essentially set in stone, past vs. present tense may seem a subjective, purely stylistic preference. After all, each commit was once applied to the codebase. However, as a project grows, commits may need to be picked and pruned. When someone reverts a commit, or merges a branch, or cherry picks specific commits, it's helpful to treat commits as actions that can be performed, or not performed, or undone. This adds clarity to the version control workflow.
