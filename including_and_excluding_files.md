@@ -1,4 +1,4 @@
-# Tracking files
+# Tracking Files
 
 Think critically about which files you check into version control, and which files you exclude.
 
