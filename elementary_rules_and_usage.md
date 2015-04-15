@@ -45,3 +45,25 @@ Better:
 In a small project where each commit is essentially set in stone, past vs. present tense may seem a subjective, purely stylistic preference. After all, each commit was once applied to the codebase.
 
 However, as a project grows, commits may need to be picked and pruned. When someone reverts a commit, or merges a branch, or cherry picks specific commits, it's helpful to treat commits as actions that can be performed, or not performed, or undone. This adds clarity to the version control workflow.
+
+## Lead with the most important information.
+
+Neuroscientists agree: Readers are lazy. For best effect, summarize the importance of your commit at the top, and place less pertinent details after.
+
+Good:
+
+> set session.cookie_lifetime = 0
+>
+> increase session timeout
+>
+> close #30
+
+Better:
+
+> close #30
+>
+> increase session timeout
+>
+> set session.cookie_lifetime = 0
+
+Leading with the most salient information is particularly useful for limited commit views, such as the default view for command line `git log`, as well as Web browser commit views. If you hide the important parts of your commit message beneath a bunch of other lines, the important parts may fall "beneath the fold".
