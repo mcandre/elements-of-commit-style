@@ -82,12 +82,12 @@ Keeping build documentation up to date also helps when configurint continuous in
 
 ## Use Markdown format.
 
-READMEs and other documentation can be written in any text format, but Markdown represents a local maximum of several factors:
+Documentation can be written in any format, but Markdown is the de facto standard for writing READMEs and other basic documentation:
 
-* Markdown can make clickable hyperlinks and show images, whereas `txt` files can only show plain text.
-* Markdown is supported by many code hosts, including GitHub, GitLab, and BitBucket.
+* Markdown is better at rendering clickable hyperlinks and showing images than plain txt files.
 * Markdown is easier to learn than HTML.
+* Markdown is supported by many code hosts, including GitHub, GitLab, and BitBucket.
 
-http://daringfireball.net/projects/markdown/syntax
+Modern code hosts automatically look for `README.md` files and render these as clickable HTML pages. In fact, this book is written in Markdown:
 
-Modern code hosts automatically look for `README.md` files and render these as clickable HTML pages. Alternative formats such as Textile and reStructuredText are often supported, but Markdown is the premiere format that most open source projects tend to use.
+https://raw.githubusercontent.com/mcandre/elements-of-commit-style/master/readmes.md
