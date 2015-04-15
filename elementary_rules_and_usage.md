@@ -2,7 +2,7 @@
 
 ## Preserve context.
 
-A little context goes a long way. Code reviewers want to know why a patch should be accepted. Future contributors want to know why ByteString substitutes for String. If you don't say why you committed a change, people might mistakenly revert it!
+A little context goes a long way. The more people read your code, the more they want to know why you make each change. If you don't say why you committed a change, people might mistakenly revert it!
 
 Bad:
 
@@ -13,6 +13,26 @@ Better:
 > use ByteString for optimization
 
 When you commit, you can choose to illuminate your open source project, or you can leave everyone in the dark, concealing your true intentions. If you follow the Jedi order, Clarity is a powerful Force spell. The Sith order's counterspell is Obfuscation. If you've been pushing secretive Sith commit messages, you may want to revisit the light side.
+
+## Encourage linking.
+
+"Google it" is helpful advice for general tech problems. For more specific conversations, providing links to relevant tools and tickets helps everyone out.
+
+Bad:
+
+> tune up code
+
+Better:
+
+> tune up code with jshint
+
+Better still:
+
+> per issue #4, tune up code with jshint. http://jshint.com/
+>
+> in particular, https://jslinterrors.com/the-array-literal-notation-is-preferrable
+
+The more you link, the less people have to page you for answers. And, ironically, linking makes Googling work better as well.
 
 ## Use present tense.
 
