@@ -79,3 +79,5 @@ Example README:
         us.yellosoft.WordCount resources/ \
         output/
 ```
+
+Keeping build documentation up to date also helps when configurint continuous integration; you will likely copy and paste the same steps into Jenkins or Travis CI.
