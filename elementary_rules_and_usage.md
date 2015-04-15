@@ -22,10 +22,10 @@ A little context goes a long way. Code reviewers want to know why a patch should
 
 Bad:
 
-> fixed it
+> use ByteString
 
 Better:
 
-> fix issue #7
+> use ByteString for optimization
 
-When you commit, you can either illuminate your open source project, or you can leave everyone in the dark, concealing your true intentions. If you follow the Jedi order, Clarity is a powerful Force spell. The Sith order's counterspell is Obfuscation. If you've been pushing secretive Sith commit messages, you may want to revisit the light side.
+When you commit, you can choose to illuminate your open source project, or you can leave everyone in the dark, concealing your true intentions. If you follow the Jedi order, Clarity is a powerful Force spell. The Sith order's counterspell is Obfuscation. If you've been pushing secretive Sith commit messages, you may want to revisit the light side.
