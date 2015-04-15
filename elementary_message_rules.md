@@ -30,7 +30,7 @@ Better:
 >
 > in particular, https://jslinterrors.com/the-array-literal-notation-is-preferrable
 
-The more you link, the less people have to page you for answers. And, ironically, linking makes Googling work better as well.
+The more you link, the less people have to page you for answers. And, ironically, linking makes Googling work better as well, because Google results stem from links.
 
 ## Use present tense.
 
