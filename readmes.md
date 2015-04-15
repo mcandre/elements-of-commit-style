@@ -4,7 +4,7 @@ At the top level of each project, include a README file describing the project i
 
 ## Describe the purpose of the project.
 
-Give a brief summary of the project's purpose.
+Give a brief summary of the project's purpose. Too often, developers neglect to include a project description in the README, infecting users with fear, uncertainty, and doubt. The treatment is a few, plain English sentences.
 
 Example README:
 
@@ -15,8 +15,6 @@ vcdetect identifies which version control program, if any, is managing a project
 
 Assumes version control data is stored on the file system in plain, unambiguous, per-project fashion. This precludes the ability to detect arcane and offbeat version control software such as cvsnt, svk, and vss.
 ```
-
-Many repositories, especially corporate subsystems, neglect to include a project description, at the expense of contributions from new and unfamiliar developers.
 
 ## Demonstrate example usages.
 
