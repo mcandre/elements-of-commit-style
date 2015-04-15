@@ -43,7 +43,7 @@ Example README:
     /Users/andrew: unknown
 ```
 
-## Include instructions for installing depedencies
+## Detail depedencies.
 
 If your project depends on any other software packages or configuration, link to or include instructions for setting these up.
 
