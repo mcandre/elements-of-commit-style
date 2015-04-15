@@ -82,7 +82,7 @@ Keeping build documentation up to date also helps when configurint continuous in
 
 ## Use Markdown format.
 
-You are free to write READMEs and other documentation in any format, but Markdown represents a local maximum of several factors:
+READMEs and other documentation can be written in any text format, but Markdown represents a local maximum of several factors:
 
 * Markdown can make clickable hyperlinks and show images, whereas `txt` files can only show plain text.
 * Markdown is supported by many code hosts, including GitHub, GitLab, and BitBucket.
