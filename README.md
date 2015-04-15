@@ -1,2 +1,1 @@
-# elements-of-commit-style
-a little commit book
+# elements-of-commit-style - a little commit book
