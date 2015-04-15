@@ -62,7 +62,7 @@ Example:
     $ bundle install
 ```
 
-## Include build instructions
+## Detail build instructions.
 
 Programming newbies may not know how to build, install, and run the project from source. Include basic instructions for a local build.
 
