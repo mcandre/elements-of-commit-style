@@ -18,7 +18,7 @@ Assumes version control data is stored on the file system in plain, unambiguous,
 
 Many repositories, especially corporate subsystems, neglect to include a project description, at the expense of contributions from new and unfamiliar developers.
 
-## Show example usages.
+## Demonstrate example usages.
 
 Show new users how to use your project. Command line programs should include a few example runs. Graphical programs should include a few screenshots.
 
