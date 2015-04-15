@@ -29,5 +29,3 @@ Better:
 > fix issue #7
 
 When you commit, you can either illuminate your open source project, or you can leave everyone in the dark, concealing your true intentions. If you follow the Jedi order, Clarity is a powerful Force spell. The Sith order's counterspell is Obfuscation. If you've been pushing secretive Sith commit messages, you may want to revisit the light side.
-
-You can bring balance to the Force
