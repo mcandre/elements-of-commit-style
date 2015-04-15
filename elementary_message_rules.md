@@ -1,6 +1,8 @@
 # Elementary Message Rules
 
-How you draft your commit messages can say a lot about your project. If you habitually `svn ci -m 'update'`, you might be working on a small, simple project. If you configure version control to launch your favorite text editor, you can affort to spend a few extra seconds improving your commit messages. Your future self will appreciate more disciplined, useful commit messages.
+How you draft your commit messages can say a lot about your project. If you habitually `svn ci -m 'update'`, you might be working on a small, simple project. If you configure version control to launch your favorite text editor, you can affort to spend a few extra seconds improving your commit messages.
+
+Remember your audience, particuarly new and unfamiliar users. Avoid the Perl Pit in which your code changes a few months from now are illegible and you can't remember how you got there. Create a habit of explicit documentation and contextful commit messages, and your future self will appreciate it.
 
 ## Preserve context.
 
