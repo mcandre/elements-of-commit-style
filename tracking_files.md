@@ -2,7 +2,7 @@
 
 Think critically about which files you check into version control, and which files you exclude.
 
-## Include small and hand-written files
+## Include small and hand-written files.
 
 Anything hand-written that would take time to recreate is a good candidate for checking into version control. 
 Example checked-in files:
@@ -48,7 +48,7 @@ Some binaries should be excluded, but reasonable exceptions include media files 
 
 Medium-to-large files that are important resources, but are considered too big for version control, can be kept in online data storage, as long as instructions for obtaining them are clearly indicated in version controlled-documentation.
 
-## Exclude executables and other by-products
+## Exclude executables and other by-products.
 
 Anything computer-built from hand-written files should be excluded from version control. Use `.gitignore`, etc. to keep machine code and other large, computer generated files out of version control.
 
@@ -66,7 +66,7 @@ When in doubt, use [gitignore.io](https://www.gitignore.io/) to quickly get a li
 
 https://rtyley.github.io/bfg-repo-cleaner/
 
-## Exclude operating system junk files
+## Exclude operating system junk files.
 
 Don't let folder thumbnails and other constantly changing junk files creep into version control.
 
@@ -77,7 +77,7 @@ Thumbs.db
 .DS_Store
 ```
 
-## Exclude text-editor metadata
+## Exclude text-editor metadata.
 
 Emacs, Vim, SublimeText, IntelliJ, and many other text editors produce cache files by default, for temporarily managing project file backups. In a version controlled project, these files are largely redundant, and should not be checked into version control.
 
