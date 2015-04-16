@@ -1,6 +1,6 @@
 # Surgical Strikes
 
-A version control systems is a scalpel: powerful, but must be kept clean. To get the most out of your version control system, you need to sterilize each commit. In a DVCS such as git, each commit should be sterilized before pushing to remote repositories.
+A version control system is a scalpel: powerful, but must be kept clean. To get the most out of your version control system, you need to sterilize each commit. In a DVCS such as git, each commit should be sterilized before pushing to remote repositories.
 
 ## Sterilize your working directory.
 
