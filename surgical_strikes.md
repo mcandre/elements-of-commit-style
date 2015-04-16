@@ -49,3 +49,15 @@ A safer way to clean up these branches is to rebase them from master. This edits
 ```
 
 If there are no merge conflicts, this works very smoothly. On the other hand, merge conflicts may crop up. Better these be resolved early in the sprint work for a branch than later, towards release time.
+
+## Squash related commits.
+
+Several minor changes that constitute one logical code change, such as a few changes that together make a unit test pass, can be combined together into a single commit. This ensures continuous integration will only see the one, test passing commit rather than several failing commits.
+
+```
+$ git rebase -i
+squash c0a5ae55 balance parentheses
+squash acaca4ed correct off-by-one error
+squash 866a527d fix broken unit test ArithmeticTest
+...
+```
