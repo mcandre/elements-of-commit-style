@@ -2,9 +2,17 @@
 
 A version control systems is a scalpel: powerful, but must be kept clean. To get the most out of your version control system, you need to sterilize each commit. In a DVCS such as git, each commit should be sterilized before pushing to remote repositories.
 
+## Sterilize your working directory.
+
+Use `git status`, etc. to ensure your operating area is clean. If you have modifications, you may want to `git commit` or `git stash` them before continuing with other git operations.
+
+## Synchronize local and remote repositories.
+
+Decentralized version control systems such as git require constant, manual synchronization between local and remote repositories. If your local repo gets too out of date, you risk merge conflicts when you try to push new changes upstream. Push early, push often. (And pull early, pull often.)
+
 ## Commit only what you need.
 
-Use `git status`, `svn status`, etc., to confirm which modifications might be included in a commit.
+Use `git status`, etc., to confirm which modifications might be included in a commit.
 
 For example, split import statement reordering from logging improvements. Stage one of these as a commit dedicated to import statement reordering, and follow up with a second commit for logging improvements.
 
