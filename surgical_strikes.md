@@ -56,8 +56,8 @@ Several minor changes that constitute one logical code change, such as a few cha
 
 ```
 $ git rebase -i
-squash c0a5ae55 balance parentheses
-squash acaca4ed correct off-by-one error
-squash 866a527d fix broken unit test ArithmeticTest
+pick c0a5ae55 balance parentheses
+pick acaca4ed correct off-by-one error
+pick 866a527d fix broken unit test ArithmeticTest
 ...
 ```
