@@ -4,7 +4,7 @@ The larger the project, the more things tend to spiral into chaos. Branches and 
 
 ## Establish a branch workflow.
 
-There are myriad ways of branching and merging. Document how contributors should interact with branches, or adopt [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/), the de facto standard for working with branches on git projects.
+There are myriad ways of branching and merging. Document how contributors should interact with branches, or adopt [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), the de facto standard for working with branches on git projects.
 
 ## Use feature branches.
 
