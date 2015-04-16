@@ -52,10 +52,10 @@ If there are no merge conflicts, this works very smoothly. On the other hand, me
 
 ## Squash related commits.
 
-Several minor changes that constitute one logical code change, such as a few changes that together make a unit test pass, can be combined together into a single commit.
+Several minor changes that constitute one logical code change, such as a few changes that together make a unit test pass, can be combined together into a single commit. Use `git rebase -i HEAD~<n>` to edit the last n commits.
 
 ```
-$ git rebase -i
+$ git rebase -i HEAD~3
 pick c0a5ae55 balance parentheses
 squash acaca4ed correct off-by-one error
 squash 866a527d fix broken unit test ArithmeticTest
