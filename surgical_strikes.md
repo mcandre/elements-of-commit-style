@@ -65,3 +65,5 @@ squash 866a527d fix broken unit test ArithmeticTest
 This ensures other developers, and continuous integration, will only see a single passing commit rather than several failing commits.
 
 Rebasing can do other powerful edits to the commit history, including deleting commits, and splitting commits into several commits. See [Pro Git](http://git-scm.com/book/en/v2/Git-Branching-Rebasing) for more information.
+
+While developing a feature, it's useful to keep commits separate / unsquashed, and merge them as a squashed commit into more integrated branches like master or develop. Use `git merge --squash` to do this.
