@@ -52,7 +52,7 @@ If there are no merge conflicts, this works very smoothly. On the other hand, me
 
 ## Squash related commits.
 
-Several minor changes that constitute one logical code change, such as a few changes that together make a unit test pass, can be combined together into a single commit. This ensures continuous integration will only see the one, test passing commit rather than several failing commits.
+Several minor changes that constitute one logical code change, such as a few changes that together make a unit test pass, can be combined together into a single commit. This ensures other developers and continuous integration will only see the one, test passing commit rather than several failing commits.
 
 ```
 $ git rebase -i
